@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@media (max-width: 48rem) {
+  .img {
+    background-image: url(../public/images/image-product-mobile.jpg);
+    width: 21.4375rem;
+    height: 15rem;
+  }
+}
+
+@media (min-width: 48.01rem) {
+  .img {
+    background-image: url(../public/images/image-product-desktop.jpg);
+    width: 21.10588rem;
+    height: 28.125rem;
+    margin-left: -1.2rem;
+    border-bottom-left-radius: 10%;
+    border-top-left-radius: 10%;
+  }
+}
