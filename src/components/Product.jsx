@@ -24,7 +24,7 @@ export default function Product() {
           <span className="text-[#6C7289] ml-6 line-through">$169.99</span>
         </div>
         <button className="flex justify-center items-center bg-[#3D8168] text-white px-[5rem] py-2 rounded-lg mt-4 font-mont font-bold hover:bg-[#1A4032] md:px-[3rem] md:mt-8">
-          <img className="mr-[1rem]" src="../images/icon-cart.svg" />
+          <img className="mr-[1rem]" src="../images/icon-cart.svg" alt="icon" />
           Add to Cart
         </button>
       </div>
